@@ -6,7 +6,7 @@
 def sum_to():
   x=int(input('enter a number larger the 1 '))
   sum = 0
-  for num in range(1,x):
+  for num in range(1,x+1):
     sum +=num
   return sum
 
